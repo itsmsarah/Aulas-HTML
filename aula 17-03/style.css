@@ -1,0 +1,76 @@
+body{
+  background-image: url("https://s2-oglobo.glbimg.com/9klHOjd7lcel63OXtZlQL2bHAnI=/0x57:1080x858/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/R/s/ZjX5XUSfWWVhdGvm37MQ/snapinsta.app-458802346-1052756763163519-1505239033973651839-n-1080.jpg") ;
+  background-repeat: no-repeat; /* fala sevai repetir a img ou nn*/
+  background-size: cover; /* fica sobre a tela inteira */
+  /*background-size: auto; /*tamanho real da imagem */
+  background-size: contain;/*tamanho dos elementos */
+
+}
+
+fieldset{
+    background-color: lightgray;
+}
+legend{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: deepskyblue; 
+}
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input{
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+}
+textarea{
+    display: block;
+}
+button{
+    text-align: end;
+    background-color: darkcyan;
+    color: white;
+    border-radius: solid 10px black;
+    margin-top: 15px;
+}
+form{
+    padding: 20px;
+    width: 400px;
+}
+.block{
+ display: block;
+ background-color:lightblue ;
+ margin-bottom: 10px;
+}
+
+.inline{
+    display: inline;
+    background-color: greenyellow;
+    margin-left: 10px;
+
+}
+
+.inline-block{
+    display:inline-block ;
+    background-color: red;
+    height: 50px;
+    margin-top: 20px;
+    width: 60px;
+    
+
+}
+.flex{
+    background-color: grey;
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+
+
+}
+.paragrafo{
+    background-color: pink;
+    align-items: flex-start;
+    padding: 10px;
+    margin: 10px 10px;
+}

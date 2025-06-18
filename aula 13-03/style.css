@@ -1,0 +1,30 @@
+.block{
+    background-color: lightblue;
+    padding: 25px;
+    border: 2px solid black;
+    display: block; 
+    /*block ocupa a linha inteira*/
+}
+.inline{
+    padding: 20px;
+    border: 2px solid gray;
+    background-color: lightpink;
+    display:inline; /* inline só ocupa o tamanho do elemento*/
+
+}
+.inline-block{
+    padding: 20px;
+    border: 2px solid yellow;
+    background-color: coral;
+    display: inline-block;/* com inline block a gente consegue mudar a altura e largua */
+    height:50px ;
+
+}
+.flex{
+    padding: 20px;
+    border: 2px solid blue;
+    background-color: brown;
+    display: flex;
+    
+
+}

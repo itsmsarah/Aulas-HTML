@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <!--Estrutura do formulário-->
+      <fieldset>
+        <!--Agrupa as informações do Forms-->
+        <legend>Informações pessoais</legend>
+        <!--Nomear as áres do fotm-->
+        <label for="nome">Nome Completo</label>
+        <!--Texto descritivo do input-->
+        <input
+          name="nome"
+          type="text"
+          placeholder="Digite seu nome aqui"
+          required
+        />
+        <!--Campo de entrada de informação, colocar o mesmo nome do for no input-->
+        <!--PlaceHolder é um texto q fica dentro da caixa de texto-->
+        <!--Required para informar que o campo é obrigatório-->
+        <br />
+
+        <label for="email">Seu e-mail:</label>
+        <input name="name" type="email" placeholder="Digite seu e-mail" />
+
+        <br />
+        <label for="senha">Senha:</label>
+        <input name="senha" type="password" placeholder="Digite sua senha" />
+
+        <br />
+        <label for="idade">Sua Idade:</label>
+        <input name="idade" type="number" placeholder="Digite sua idade" />
+
+        <br />
+        <label for="datadenasc">Data de Nascimento</label>
+        <input name="datadenasc" type="date" />
+
+        <br />
+        <label for="profissao">Sua profissão:</label>
+        <select name="profissao">
+          <option value="Web Designer">Web Designer</option>
+          <option value="Professor">Professor</option>
+          <!--value para saber qual a opção selecionada pelo usuario-->
+        </select>
+        <br />
+        <br />
+        <p>Cor favorita?</p>
+        <label>
+          <!--o campo em name tem que ser igual , para que a opção selecionada seja unica-->
+          <input type="radio" name="cor" value="Azul" /> Azul
+          <input type="radio" name="cor" value="Vermelho" /> Vermelho
+        </label>
+
+        <br />
+
+        <p>Qual sua fruta favorita?</p>
+        <label>
+          <input type="checkbox" name="fruta" value="Uva" />Uva
+          <input type="checkbox" name="fruta" value="Laranja" />Laranja
+        </label>
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Sobre você:</legend>
+        <label for="SobreVoce">Minha História</label>
+        <textarea name="SobreVoce" placeholder="Escreva sobre você"></textarea>
+      </fieldset>
+    </form>
+  </body>
+</html>

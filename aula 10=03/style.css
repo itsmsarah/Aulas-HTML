@@ -1,0 +1,65 @@
+p{
+    /*color:blue; */
+    color: #d1d1d1;
+    color: rgb(0, 255, 98, 0.813);
+    color: rgba(0, 255, 98, 0.813,0.8);   /* opacidade */ /* o a vai até 1*/
+   
+}
+p{
+    color:aqua
+}
+p{
+color: darkseagreen;}
+p{
+    color: darkblue;
+}
+p{
+color:chocolate}
+h1{
+    color: burlywood;
+}
+h1{
+    color:pink
+}
+h1{
+    color: pink;
+}
+h1{
+    color:chocolate;
+}
+h1{
+color:azure;}
+h2{
+    color: brown;
+}
+h2{
+    color:darkblue
+}
+h2{
+color:blueviolet}
+h2{
+color: pink;}
+h2{
+    color: cornflowerblue;
+}
+/*     Header             */
+
+/*     Footer             */
+
+h1{
+    color: aqua;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ; /* alterar o tipo de fonte*/
+    font-size: 50px;
+    font-weight: 200 ;   /* peso da fonte */
+    line-height: 10; /* distância de uma linha da outra*/
+   /* text-transform: uppercase; /* deixa td em capslock */ 
+   text-transform: lowercase; 
+   text-transform: capitalize;/*primeira letra ser maiuscula */
+   font-family: 'Eater';
+}
+p {
+
+    line-height: 0.1; /* distância de uma linha da outra */
+   
+
+}

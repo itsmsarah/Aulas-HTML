@@ -1,0 +1,21 @@
+
+button{
+    background-color: blue;
+   border: 2px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: red;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 30px;
+}
+a{
+   text-decoration:none;
+}
+a:hover{
+   
+    text-decoration: underline;
+    color:darkgreen
+}
