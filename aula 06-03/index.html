@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="" title="" class="">Titulo principal</h1> 
+     <!-- Id =identificador de uma tag especifica( único) -->
+     <!-- class é um agrupador-->
+     <!-- Title é menu flutuante-->
+
+    <p hidden>Texto algum</p>
+     <!-- hidden utiliza no java script( esconde o elemento por padrão)-->
+     <button tabindex="2">Botão</button>
+     <!--tabindex serve para mostrar ordem de acordo com o tab-->
+
+    <p contenteditable="True" tabindex="1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum magni cumque dolore distinctio atque, fugiat iste sunt doloremque tempore dignissimos ut! Aut reiciendis assumenda natus, nulla doloribus debitis repellat totam!</p>   
+    <!--campo editaval porém não fica pra smp-->
+
+    <img draggable="false" src="https://cdn-icons-png.flaticon.com/512/1834/1834342.png">
+    <!--draggable false pra imagem nn arrastar-->
+
+
+    <!-- TABELAS -->
+
+    <table border="1">
+        <thead><!-- cabeçalho da tabela-->
+            <tr>   <!-- 1 linha da tabela-->
+                <th>Nome</th> <!-- item da do cabeçaçho-->
+                <th>Idade</th>
+                <th>Cidade</th>
+            </tr>  
+        </thead>  
+        <tbody>
+            <tr>
+                <td>Sarah</td> <!--Item da tabela-->
+                <td>18</td>
+                <td>São Paulo</td>
+            </tr>
+            <tr>
+                <td>Gabriel</td> <!--Item da tabela-->
+                <td>17</td>
+                <td>Rio de Janeiro</td>
+            </tr>
+
+        </tbody>  <!--contéudo da tabela-->
+    </table>
+    <br>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Produtos</th>
+                <th colspan="2">Detalhes</th> <!--colspan quer dizer q vai ocupar a coluna dele e a prox-->
+                <th>Preço</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Notebook</td>
+                <td>3.000</td>
+                <td>Em estoque</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Celular</td> <!-- rowspan ocupa linha, ou seja, nesse caso duas-->
+                <td>2.500</td>
+                <td>Vendido</td>
+            </tr>
+            <tr>
+                <td>R$ 4.500</td>
+                <td>Em estoque</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+</body>
+</html>
