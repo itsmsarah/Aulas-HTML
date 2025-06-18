@@ -1,0 +1,49 @@
+/* .container{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    /* grid-template-columns: 2fr 2fr repeat(8, 1fr); para as duas primeiras tem 2fr */ 
+    /* grid-template-rows: 1fr 2fr;
+    gap: 20px;
+} */
+
+
+/* .item{
+    background-color: purple;
+} */ 
+
+.caixas{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    text-align: center;
+    
+    gap: 20px;
+    
+}
+
+.caixa{
+    background-color: aquamarine;
+}
+.exercicios2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr;
+    gap: 20px;
+    text-align: center;
+    
+}
+.menu_conteudo{
+    background-color: greenyellow;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr) ;
+    gap: 20px;
+    text-align: center;
+
+}
+.numeros{
+    background-color: palevioletred;
+}

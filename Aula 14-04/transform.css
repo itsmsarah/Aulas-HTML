@@ -1,0 +1,16 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    transition: 1s;
+}
+
+.box:hover{
+    /* transform: translate(20px,30px); primeiro é o x e dps o y */
+    /* transform: translateX(20px); so direita para esquerda */
+    /* box-shadow: 50px 50px 7px black; dessa maneira a smbra bai pra baixo e pra direita */
+    /* transform: scale(100,5); */
+    /* transform: rotate(360deg) translate(10px) scale(40,5); */
+    /* transform: skew(20deg,20deg); /*faz ficar meio tortinho encima e embaixo */
+    /* box-shadow: 50px 50px 7px black; */ */
+}
